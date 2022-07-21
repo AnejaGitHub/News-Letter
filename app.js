@@ -27,6 +27,7 @@ app.post("/", function(req,res){
                 merge_fields: {
                     FNAME: fisrtName,
                     LNAME: lastName
+
                 }
             }
         ]
@@ -63,3 +64,4 @@ app.listen(process.env.PORT || 3000, function(){
 });
 // 59ba7a9359c57ff67d7823c0cb1c167a-us14
 // 3df44a6ee2
+// web link is   https://guarded-mountain-54077.herokuapp.com/
